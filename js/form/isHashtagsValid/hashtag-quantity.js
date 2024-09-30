@@ -1,9 +1,18 @@
-function hashtagQuantity(hashtag) {
+const MAX_HASHTAGS = 5;
+const hashtagQuantity = (hashtag) => {
 
-  const maxHashtags = 6;
   const splittedHashtags = hashtag.split(' ');
 
-  return splittedHashtags.length < maxHashtags;
+  const hashtags = [];
 
-}
+  splittedHashtags.forEach((element) => {
+    if (element !== '' && element !== ' ') {
+      hashtags.push(element);
+    }
+  });
+
+  return hashtags.length <= MAX_HASHTAGS;
+
+};
+
 export {hashtagQuantity};
