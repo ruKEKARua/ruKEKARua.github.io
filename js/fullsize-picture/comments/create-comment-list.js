@@ -1,4 +1,4 @@
-import {getMoreComments} from './get-more-commets';
+import {getMoreComments} from './get-more-commets.js';
 function createCommentList (objectId) {
   const commentsSection = document.querySelector('.social__comments');
   const bigPicture = document.querySelector('.big-picture');
