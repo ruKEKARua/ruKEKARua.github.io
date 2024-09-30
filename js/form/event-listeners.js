@@ -1,4 +1,4 @@
-import { isEscapeKey } from '../util';
+import { isEscapeKey } from '../util.js';
 function stopPropagation() {
   const form = document.querySelector('.img-upload__form');
   const description = form.querySelector('.text__description');

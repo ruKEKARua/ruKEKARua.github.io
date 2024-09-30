@@ -1,6 +1,6 @@
-import {isEscapeKey} from '../util';
-import {removeMoreCommentsListener} from './comments/create-comment-list';
-import {getMoreComments} from './comments/get-more-commets';
+import {isEscapeKey} from '../util.js';
+import {removeMoreCommentsListener} from './comments/create-comment-list.js';
+import {getMoreComments} from './comments/get-more-commets.js';
 
 
 const body = document.querySelector('body');

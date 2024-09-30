@@ -1,6 +1,6 @@
-import {isEscapeKey} from '../util';
-import {fillPhotos} from './fill-photos';
-import {deletePhotos} from './delete-photos';
+import {isEscapeKey} from '../util.js';
+import {fillPhotos} from './fill-photos.js';
+import {deletePhotos} from './delete-photos.js';
 
 function openForm() {
   const body = document.querySelector('body');

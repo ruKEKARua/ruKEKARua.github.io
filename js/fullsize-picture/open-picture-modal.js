@@ -1,5 +1,5 @@
-import { createCommentList } from './comments/create-comment-list';
-import { objects } from '../objects-miniatures/data';
+import { createCommentList } from './comments/create-comment-list.js';
+import { objects } from '../objects-miniatures/data.js';
 
 
 // общие переменные

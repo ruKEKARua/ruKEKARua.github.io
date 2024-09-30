@@ -1,7 +1,7 @@
-import { stopPropagation } from './event-listeners';
-import { hashtagErrorPattern } from './isHashtagsValid/hashtag-error-pattern';
-import { hashtagQuantity } from './isHashtagsValid/hashtag-quantity';
-import { isHashtagRepeat } from './isHashtagsValid/is-hashtag-repeat';
+import { stopPropagation } from './event-listeners.js';
+import { hashtagErrorPattern } from './isHashtagsValid/hashtag-error-pattern.js';
+import { hashtagQuantity } from './isHashtagsValid/hashtag-quantity.js';
+import { isHashtagRepeat } from './isHashtagsValid/is-hashtag-repeat.js';
 
 function isFormValid() {
 
